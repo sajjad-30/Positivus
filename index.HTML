@@ -13,7 +13,6 @@
     <link rel="stylesheet" href="./assets/style.css">
 </head>
 <style>
-    
     @font-face {
         font-family: SpaceGrotesk;
         src: url('./fonts/SpaceGrotesk-Bold.ttf') format("truetype");
@@ -51,7 +50,7 @@
         --body-color: #F3F3F3;
     }
 
-   
+
     body {
         font-family: SpaceGrotesk;
         background-color: white;
@@ -226,7 +225,7 @@
             background-color: var(--primary-color);
             transition: width 0.3s ease, left 0.3s ease;
         }
-        
+
 
         .mobile-nav-button:hover .anim-layer {
             width: 100%;
@@ -327,6 +326,7 @@
         border-radius: 10px;
         padding: 7px;
     }
+
     .services .services-card.services-card-two {
         background-color: var(--primary-color);
         /* padding: 34px 25px; */
@@ -366,7 +366,7 @@
         color: var(--secondary-color);
     }
 
-    
+
     /* Working Process Start */
 
     .working-process .accordion-item {
@@ -553,7 +553,7 @@
         border-bottom: 10px solid black;
         border-radius: 4rem;
         padding: 4rem;
-        margin-inline: auto;
+
 
         hr {
             width: 100%;
@@ -592,14 +592,15 @@
     }
 
     .team__button {
+        display: block;
         background-color: black;
-        padding-inline: 8rem;
         border-radius: 1rem;
-        padding-block: 2rem;
         color: white;
         font-size: 1.7rem;
         width: max-content;
-        align-self: flex-end;
+        align-self: center;
+        margin: auto;
+        padding: 1rem 2rem;
 
         @media (max-width: 900px) {
             align-self: center;
@@ -749,17 +750,17 @@
                                     <img class="img-fluid" src="img/services-2.png" alt="">
                                 </div>
                             </div>
-                        
-                        <div class="services-card services-card-one border-0 d-block d-lg-none p-5 mt-5">
-                            <h2>Let’s make things happen</h2>
-                            <p>Contact us today to learn more about how our digital marketing services can help your
-                                business grow and succeed online.</p>
-                            <a class="bg-dark text-white w-100 d-inline-block py-3 rounded-4 text-center text-decoration-none"
-                                href="">Get your proposal</a>
+
+                            <div class="services-card services-card-one border-0 d-block d-lg-none p-5 mt-5">
+                                <h2>Let’s make things happen</h2>
+                                <p>Contact us today to learn more about how our digital marketing services can help your
+                                    business grow and succeed online.</p>
+                                <a class="bg-dark text-white w-100 d-inline-block py-3 rounded-4 text-center text-decoration-none"
+                                    href="">Get your proposal</a>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
         </section>
 
         <section class="working-process my-5">
@@ -976,7 +977,7 @@
                 <div class="colored-text">
                     <h2 class="font-4">Testimonials</h2>
                 </div>
-               
+
             </div>
 
             <section class="contact-us my-5">
